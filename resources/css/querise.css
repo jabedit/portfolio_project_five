@@ -1,0 +1,110 @@
+@media screen and (max-width:1200px){
+    .row{
+        width: 100%;
+        padding: 0 30px;
+    }
+      .close-btn ion-icon{
+        position: absolute;
+        right: 45px;
+        
+    }
+    .menu-item{
+    position: absolute;
+    top: 40%;
+    }
+    #hero{
+        width: 100%;
+    }
+}
+@media screen and (max-width:768px){
+    .grid-about-contaienr{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .paul{
+        width:70%;
+    }
+    
+    .grid-process-container{
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 10px;
+    }
+    
+    .grid-portfolio-container{
+        grid-template-columns: 1fr 1fr;
+    }
+    .grid-testimonial-container{
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width:480px){
+    .portfolio-filter button{
+        margin-bottom: 10px;
+    }
+    .hero-text-box{
+        width: 100%;
+    }
+    .menu-item{
+    position: absolute;
+    top: 30%;
+    }
+    .paul{
+        width:100%;
+    }
+    .grid-process-container{
+        grid-template-columns:1fr;
+        grid-row-gap: 10px;
+    }
+    .grid-experience-container,
+    .grid-portfolio-container{
+         grid-template-columns:1fr;
+    }
+    
+    .grid-portfolio-items:nth-child(5) {
+    background: url(img/p5.jpeg) no-repeat center / cover;
+    grid-column: 1;
+}
+    .grid-testimonial-container{
+        grid-template-columns: 1fr;
+    }
+    .grid-contact-container{
+        grid-template-columns: 1fr;
+    }
+    h1{
+        font-size: 500%!important;
+    }
+    .hero-text-box span{
+        font-size: 170%;
+    }
+    .menu-item{
+        height: 40%;
+    }
+}
+@media screen and (max-width:350px){
+    h1{
+        font-size: 390% !important;
+    }
+    .menu-item{
+        height: 40%;
+    }
+    #contact .row{
+        padding-left: 0;
+        padding-right: 0;
+    }
+     #experience .row{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .hero-text-box span{
+        font-size: 140%;
+    }
+    
+}
+.@media screen and (max-width:275px){
+    h1{
+        font-size: 340%  !important;
+    }
+    .hero-text-box span{
+        font-size: 100%;
+    }
+}
